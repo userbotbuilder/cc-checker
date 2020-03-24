@@ -57,11 +57,11 @@ $postcode = $matches1[1][0];
 
 ////////////////////////////===[Luminati Details]
 
-$username = 'Put Zone Username Here';
-$password = 'Put Zone Password Here';
-$port = 22225;
-$session = mt_rand();
-$super_proxy = 'zproxy.lum-superproxy.io';
+////$username = 'Put Zone Username Here';
+////$password = 'Put Zone Password Here';
+////$port = 22225;
+////$session = mt_rand();
+////$super_proxy = 'zproxy.lum-superproxy.io';
 
 ////////////////////////////===[For Authorizing Cards]
 
@@ -113,12 +113,12 @@ $result = curl_exec($ch);
 
 
 //curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-/*/   'Host: '#',   
-  'accept: ',
-  'content-type: ',
-  'cookie: ',   
-  'origin: ',
-  'referer:',
+'Host: https://outpostcenters.org/donate/',   
+'accept: ',
+'content-type: ',
+'cookie: ',   
+  'origin: https://js.stripe.com',
+  'referer: https://js.stripe.com/v3/controller-40ee2e35c0e13e2e072320469122a918.html',
   'sec-fetch-mode: ',
   'sec-fetch-dest: ',
   'sec-fetch-site: ',  */
